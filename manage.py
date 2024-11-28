@@ -39,7 +39,7 @@ class StudentManager(object):
     def add_student(self):
         name = input('u jb who')
         age = input('R u transgender?')
-        tel = input('要不加个vx？')
+        tel = input('vx？')
 
         stu = Student(name, age, tel)
         self.student_list.append(stu)
@@ -60,9 +60,9 @@ class StudentManager(object):
     def modify_student(self):
         mod = input('life will change:')
         for i in self.student_list:
-            i.name = input('回来了吗')
-            i.gender = input('我研一')
-            i.tel = input('你是哪个学校的')
+            i.name = input('6666666')
+            i.gender = input('11')
+            i.tel = input('？')
             print(f'你又被人骗了喔喔{i.name},整个世界变了{i.gender}，可能她的快乐来自于我的痛苦{i.tel}')
             break
         else:
